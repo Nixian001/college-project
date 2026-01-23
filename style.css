@@ -13,6 +13,10 @@ footer {
     color: lightcyan;
     align-items: center;
     padding: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 image {

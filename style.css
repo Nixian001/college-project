@@ -6,6 +6,11 @@ body {
     font-family: 'Figtree';
 }
 
+image {
+    width: 15%;
+    height: 15%;
+}
+
 #table-invisible {
     border: 0px;
     border-color: #00000000;

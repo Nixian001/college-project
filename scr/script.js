@@ -11,7 +11,7 @@ function main() {
 
 function setText() {
     gdt_idx = gdt_idx % GOODDAY_TEXTS.length;
-    html_label.innerHTML = GOODDAY_TEXTS[gdt_idx];
+    html_label.innerText = GOODDAY_TEXTS[gdt_idx];
     gdt_idx = gdt_idx + 1;
 }
 

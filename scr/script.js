@@ -2,7 +2,7 @@ const GOODDAY_TEXTS = [
     "Hello, World!", "Heló, Világ."
 ];
 var gdt_idx = 0;
-const html_label = document.getElementById('good-morning-label');
+const html_label = document.getElementById("good-morning-label");
 
 function main() {
     setText();

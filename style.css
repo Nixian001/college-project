@@ -27,4 +27,5 @@ image {
 #table-invisible {
     border: 0px;
     border-color: #00000000;
+    max-height: 250px;
 }

@@ -28,6 +28,23 @@ image {
     height: auto;
 }
 
+figcaption {
+    background-color: #222222;
+    color: white;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+figure {
+    border: thin silver solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
 #table-invisible {
     border: 0px;
     border-color: #00000000;

@@ -24,8 +24,7 @@ th {
 }
 
 image {
-    width: auto;
-    height: auto;
+    padding: 3px;
 }
 
 figcaption {

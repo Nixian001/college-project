@@ -3,6 +3,7 @@ const GOODDAY_TEXTS = [
 ];
 var gdt_idx = 0;
 const html_label = document.getElementById("good-morning-label");
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 function main() {
     setText();
@@ -14,7 +15,7 @@ function fadeText(startalpha, endalpha) {
 
     do {
         html_label.style.opacity = lerp(startalpha, endalpha, t);
-        setTimeout(20);
+        await sleep(20);
         t += 0.02;
     } while (t < 1.0)
 }

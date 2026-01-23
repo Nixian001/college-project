@@ -6,6 +6,13 @@ body {
     font-family: 'Figtree';
 }
 
+footer {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: darkslateblue;
+    color: lightcyan;
+}
+
 image {
     width: auto;
     height: auto;

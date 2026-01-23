@@ -13,7 +13,7 @@ footer {
     color: lightcyan;
     align-items: center;
     padding: 50px;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left: 0px;
     width: 100%;
@@ -27,5 +27,8 @@ image {
 #table-invisible {
     border: 0px;
     border-color: #00000000;
+}
+
+#table-invisible, image {
     max-height: 250px;
 }

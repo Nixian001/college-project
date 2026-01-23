@@ -10,16 +10,13 @@ function main() {
 }
 
 async function fadeText(startalpha, endalpha) {
-    var t = 0.0;
+    var t = 0;
 
     while (t < 1.0) {
-        window.print(t);
         html_label.style.opacity = lerp(startalpha, endalpha, t);
         setTimeout(20);
         t += 0.02;
     }
-
-    return;
 }
 
 function lerp(a, b, t) {

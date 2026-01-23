@@ -19,6 +19,11 @@ footer {
     width: 100%;
 }
 
+th {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
 image {
     width: auto;
     height: auto;

@@ -13,6 +13,7 @@ async function fadeText(startalpha, endalpha) {
     var t = 0;
 
     while (t < 1.0) {
+        print(t);
         html_label.style.opacity = lerp(startalpha, endalpha, t);
         setTimeout(20);
         t += 0.02;

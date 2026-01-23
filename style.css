@@ -20,9 +20,8 @@ footer {
 }
 
 th {
-    font-weight: inherit;
-    font-size: inherit;
-    font-style: inherit;
+    font-weight: normal;
+    font-style: normal;
 }
 
 image {

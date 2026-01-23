@@ -6,9 +6,7 @@ body {
     font-family: 'Figtree';
 }
 
-#main-itch-text {
-    width: 75%;
-}
-#main-itch-io {
-    width: 25%;
+#table-invisible {
+    border: 0px;
+    border-color: #00000000;
 }

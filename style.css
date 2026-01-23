@@ -5,3 +5,10 @@ body {
     font-size: large;
     font-family: 'Figtree';
 }
+
+#main-itch-text {
+    width: 75%;
+}
+#main-itch-io {
+    width: 25%;
+}

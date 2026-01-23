@@ -13,7 +13,7 @@ footer {
     color: lightcyan;
     align-items: center;
     padding: 50px;
-    position: relative;
+    position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;

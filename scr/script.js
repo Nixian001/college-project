@@ -9,7 +9,7 @@ function main() {
     setInterval(setText, 5000);
 }
 
-async function fadeText(startalpha, endalpha) {
+function fadeText(startalpha, endalpha) {
     var t = 0;
 
     do {
@@ -23,11 +23,11 @@ function lerp(a, b, t) {
     return a + (b - a) * t;
 }
 
-async function setText() {
+function setText() {
     gdt_idx = gdt_idx % GOODDAY_TEXTS.length;
-    await fadeText(1, 0);
+    fadeText(1, 0);
     html_label.innerText = GOODDAY_TEXTS[gdt_idx];
-    await fadeText(0, 1);
+    fadeText(0, 1);
     gdt_idx = gdt_idx + 1;
 }
 

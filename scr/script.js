@@ -10,7 +10,7 @@ function main() {
     setInterval(setText, 5000);
 }
 
-function fadeText(startalpha, endalpha) {
+async function fadeText(startalpha, endalpha) {
     var t = 0;
 
     do {

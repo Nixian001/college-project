@@ -5,6 +5,7 @@ var gdt_idx = 0;
 const html_label = document.getElementById('good-morning-label');
 
 function main() {
+    setText();
     setInterval(setText, 2500);
 }
 

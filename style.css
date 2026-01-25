@@ -4,16 +4,24 @@ body {
     background-color: #faebd7;
     font-size: large;
     font-family: 'Figtree';
+    overflow-x: hidden;
 }
 
-footer {
-    background-color: darkslateblue;
-    color: lightcyan;
-    align-items: center;
-    display: flex;
+p {
+    text-indent: 2em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+#footer {
+    background-color: hsl(248, 39%, 20%);
+    color: hsl(248, 39%, 50%);
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     bottom: 0px;
-    left: 0px;
-    width: 100%;
+    margin-bottom: -20px;
+    margin-left: -50%;
 }
 
 th {
@@ -42,6 +50,7 @@ figure {
     max-width: 220px;
     margin: auto;
     align-content: center;
+    vertical-align: middle;
 }
 
 #table-invisible {

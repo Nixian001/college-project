@@ -6,6 +6,7 @@ const html_label = document.getElementById("good-morning-label");
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 function main() {
+    setText();
     setInterval(setText, 5000);
 }
 

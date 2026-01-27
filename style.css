@@ -45,6 +45,7 @@ header {
 header table {
     padding-left: 2.5%;
     padding-right: 2.5%;
+    border-color: var(--highligh-color);
 }
 
 th {

@@ -77,3 +77,7 @@ figure {
 #table-invisible, image {
     max-height: 250px;
 }
+
+#logo-text {
+    font-family: "Merienda";
+}

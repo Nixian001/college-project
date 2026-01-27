@@ -34,7 +34,7 @@ p {
 
 header {
     background-color: var(--second-background-color);
-    height: 10%;
+    height: 3%;
     position: sticky;
     width: 100vw;
     top: 0;

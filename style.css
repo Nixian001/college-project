@@ -42,6 +42,10 @@ header {
     margin-top: -20px;
     margin-left: -50%;
 }
+header table {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
 
 th {
     font-weight: normal;
